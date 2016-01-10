@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1824C6331C27AE300026891D /* DiscoverCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1824C6321C27AE300026891D /* DiscoverCell.m */; };
+		1824C6361C27B3CB0026891D /* OtherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1824C6351C27B3CB0026891D /* OtherCell.m */; };
+		1824C63C1C27DBD20026891D /* ContacksCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1824C63B1C27DBD20026891D /* ContacksCell.m */; };
+		183C44681C267BDD00C390B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C44671C267BDD00C390B8 /* main.m */; };
+		183C446B1C267BDD00C390B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C446A1C267BDD00C390B8 /* AppDelegate.m */; };
+		183C44841C267DAB00C390B8 /* ChatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C44831C267DAB00C390B8 /* ChatsViewController.m */; };
+		183C44871C267DCD00C390B8 /* ContacksViewContriller.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C44861C267DCD00C390B8 /* ContacksViewContriller.m */; };
+		183C448A1C267DE300C390B8 /* DiscoverViewContriller.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C44891C267DE300C390B8 /* DiscoverViewContriller.m */; };
+		183C448D1C267DF800C390B8 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C448C1C267DF800C390B8 /* MeViewController.m */; };
+		183C449A1C26D6E600C390B8 /* MeInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C44991C26D6E600C390B8 /* MeInfoTableViewCell.m */; };
+		183C449D1C26D7EA00C390B8 /* MeOtherTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C449C1C26D7EA00C390B8 /* MeOtherTableViewCell.m */; };
+		183C44A21C26EB3200C390B8 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183C44A11C26EB3200C390B8 /* Image.xcassets */; };
+		185CA9931C2A6C190047AF39 /* ChatsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 185CA9921C2A6C190047AF39 /* ChatsCell.m */; };
+		185CA9951C2AD6D40047AF39 /* contacts1.json in Resources */ = {isa = PBXBuildFile; fileRef = 185CA9941C2AD6D40047AF39 /* contacts1.json */; };
+		185CA9981C2AD6F70047AF39 /* ContactsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 185CA9971C2AD6F70047AF39 /* ContactsModel.m */; };
+		185CAA121C2D433D0047AF39 /* PopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185CAA111C2D433D0047AF39 /* PopoverView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1824C6311C27AE300026891D /* DiscoverCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverCell.h; sourceTree = "<group>"; };
+		1824C6321C27AE300026891D /* DiscoverCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverCell.m; sourceTree = "<group>"; };
+		1824C6341C27B3CB0026891D /* OtherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherCell.h; sourceTree = "<group>"; };
+		1824C6351C27B3CB0026891D /* OtherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherCell.m; sourceTree = "<group>"; };
+		1824C63A1C27DBD20026891D /* ContacksCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContacksCell.h; sourceTree = "<group>"; };
+		1824C63B1C27DBD20026891D /* ContacksCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContacksCell.m; sourceTree = "<group>"; };
+		183C44631C267BDD00C390B8 /* WeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		183C44671C267BDD00C390B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		183C44691C267BDD00C390B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		183C446A1C267BDD00C390B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		183C44771C267BDD00C390B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183C44821C267DAB00C390B8 /* ChatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatsViewController.h; sourceTree = "<group>"; };
+		183C44831C267DAB00C390B8 /* ChatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatsViewController.m; sourceTree = "<group>"; };
+		183C44851C267DCD00C390B8 /* ContacksViewContriller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContacksViewContriller.h; sourceTree = "<group>"; };
+		183C44861C267DCD00C390B8 /* ContacksViewContriller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContacksViewContriller.m; sourceTree = "<group>"; };
+		183C44881C267DE300C390B8 /* DiscoverViewContriller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiscoverViewContriller.h; path = ../DiscoverViewContriller.h; sourceTree = "<group>"; };
+		183C44891C267DE300C390B8 /* DiscoverViewContriller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DiscoverViewContriller.m; path = ../DiscoverViewContriller.m; sourceTree = "<group>"; };
+		183C448B1C267DF800C390B8 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		183C448C1C267DF800C390B8 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		183C44981C26D6E600C390B8 /* MeInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeInfoTableViewCell.h; sourceTree = "<group>"; };
+		183C44991C26D6E600C390B8 /* MeInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeInfoTableViewCell.m; sourceTree = "<group>"; };
+		183C449B1C26D7EA00C390B8 /* MeOtherTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeOtherTableViewCell.h; sourceTree = "<group>"; };
+		183C449C1C26D7EA00C390B8 /* MeOtherTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeOtherTableViewCell.m; sourceTree = "<group>"; };
+		183C44A11C26EB3200C390B8 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		185CA9911C2A6C190047AF39 /* ChatsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatsCell.h; sourceTree = "<group>"; };
+		185CA9921C2A6C190047AF39 /* ChatsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatsCell.m; sourceTree = "<group>"; };
+		185CA9941C2AD6D40047AF39 /* contacts1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = contacts1.json; sourceTree = "<group>"; };
+		185CA9961C2AD6F70047AF39 /* ContactsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsModel.h; sourceTree = "<group>"; };
+		185CA9971C2AD6F70047AF39 /* ContactsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsModel.m; sourceTree = "<group>"; };
+		185CAA101C2D433D0047AF39 /* PopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverView.h; sourceTree = "<group>"; };
+		185CAA111C2D433D0047AF39 /* PopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		183C44601C267BDD00C390B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183C445A1C267BDD00C390B8 = {
+			isa = PBXGroup;
+			children = (
+				183C44651C267BDD00C390B8 /* WeChat */,
+				183C44641C267BDD00C390B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		183C44641C267BDD00C390B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				183C44631C267BDD00C390B8 /* WeChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		183C44651C267BDD00C390B8 /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				185CAA131C2D54330047AF39 /* PopView */,
+				183C447D1C267C8700C390B8 /* ViewControllers */,
+				183C44691C267BDD00C390B8 /* AppDelegate.h */,
+				183C446A1C267BDD00C390B8 /* AppDelegate.m */,
+				183C44771C267BDD00C390B8 /* Info.plist */,
+				183C44A11C26EB3200C390B8 /* Image.xcassets */,
+				183C44661C267BDD00C390B8 /* Supporting Files */,
+			);
+			path = WeChat;
+			sourceTree = "<group>";
+		};
+		183C44661C267BDD00C390B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				183C44671C267BDD00C390B8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		183C447D1C267C8700C390B8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				183C44811C267D3900C390B8 /* MeView */,
+				183C44801C267D1600C390B8 /* DiscoverView */,
+				183C447F1C267CFA00C390B8 /* ContacksView */,
+				183C447E1C267CED00C390B8 /* ChatsView */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		183C447E1C267CED00C390B8 /* ChatsView */ = {
+			isa = PBXGroup;
+			children = (
+				183C44821C267DAB00C390B8 /* ChatsViewController.h */,
+				183C44831C267DAB00C390B8 /* ChatsViewController.m */,
+				185CA9911C2A6C190047AF39 /* ChatsCell.h */,
+				185CA9921C2A6C190047AF39 /* ChatsCell.m */,
+			);
+			name = ChatsView;
+			sourceTree = "<group>";
+		};
+		183C447F1C267CFA00C390B8 /* ContacksView */ = {
+			isa = PBXGroup;
+			children = (
+				185CA9941C2AD6D40047AF39 /* contacts1.json */,
+				183C44851C267DCD00C390B8 /* ContacksViewContriller.h */,
+				183C44861C267DCD00C390B8 /* ContacksViewContriller.m */,
+				1824C63A1C27DBD20026891D /* ContacksCell.h */,
+				1824C63B1C27DBD20026891D /* ContacksCell.m */,
+				185CA9961C2AD6F70047AF39 /* ContactsModel.h */,
+				185CA9971C2AD6F70047AF39 /* ContactsModel.m */,
+			);
+			name = ContacksView;
+			sourceTree = "<group>";
+		};
+		183C44801C267D1600C390B8 /* DiscoverView */ = {
+			isa = PBXGroup;
+			children = (
+				183C44881C267DE300C390B8 /* DiscoverViewContriller.h */,
+				183C44891C267DE300C390B8 /* DiscoverViewContriller.m */,
+				1824C6311C27AE300026891D /* DiscoverCell.h */,
+				1824C6321C27AE300026891D /* DiscoverCell.m */,
+				1824C6341C27B3CB0026891D /* OtherCell.h */,
+				1824C6351C27B3CB0026891D /* OtherCell.m */,
+			);
+			name = DiscoverView;
+			sourceTree = "<group>";
+		};
+		183C44811C267D3900C390B8 /* MeView */ = {
+			isa = PBXGroup;
+			children = (
+				183C448B1C267DF800C390B8 /* MeViewController.h */,
+				183C448C1C267DF800C390B8 /* MeViewController.m */,
+				183C44981C26D6E600C390B8 /* MeInfoTableViewCell.h */,
+				183C44991C26D6E600C390B8 /* MeInfoTableViewCell.m */,
+				183C449B1C26D7EA00C390B8 /* MeOtherTableViewCell.h */,
+				183C449C1C26D7EA00C390B8 /* MeOtherTableViewCell.m */,
+			);
+			name = MeView;
+			sourceTree = "<group>";
+		};
+		185CAA131C2D54330047AF39 /* PopView */ = {
+			isa = PBXGroup;
+			children = (
+				185CAA101C2D433D0047AF39 /* PopoverView.h */,
+				185CAA111C2D433D0047AF39 /* PopoverView.m */,
+			);
+			name = PopView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		183C44621C267BDD00C390B8 /* WeChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183C447A1C267BDD00C390B8 /* Build configuration list for PBXNativeTarget "WeChat" */;
+			buildPhases = (
+				183C445F1C267BDD00C390B8 /* Sources */,
+				183C44601C267BDD00C390B8 /* Frameworks */,
+				183C44611C267BDD00C390B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeChat;
+			productName = WeChat;
+			productReference = 183C44631C267BDD00C390B8 /* WeChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		183C445B1C267BDD00C390B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = jackyshan;
+				TargetAttributes = {
+					183C44621C267BDD00C390B8 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 183C445E1C267BDD00C390B8 /* Build configuration list for PBXProject "WeChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 183C445A1C267BDD00C390B8;
+			productRefGroup = 183C44641C267BDD00C390B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				183C44621C267BDD00C390B8 /* WeChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		183C44611C267BDD00C390B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185CA9951C2AD6D40047AF39 /* contacts1.json in Resources */,
+				183C44A21C26EB3200C390B8 /* Image.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		183C445F1C267BDD00C390B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1824C6361C27B3CB0026891D /* OtherCell.m in Sources */,
+				183C449D1C26D7EA00C390B8 /* MeOtherTableViewCell.m in Sources */,
+				183C449A1C26D6E600C390B8 /* MeInfoTableViewCell.m in Sources */,
+				183C44841C267DAB00C390B8 /* ChatsViewController.m in Sources */,
+				185CAA121C2D433D0047AF39 /* PopoverView.m in Sources */,
+				183C448A1C267DE300C390B8 /* DiscoverViewContriller.m in Sources */,
+				185CA9931C2A6C190047AF39 /* ChatsCell.m in Sources */,
+				183C446B1C267BDD00C390B8 /* AppDelegate.m in Sources */,
+				183C448D1C267DF800C390B8 /* MeViewController.m in Sources */,
+				1824C63C1C27DBD20026891D /* ContacksCell.m in Sources */,
+				183C44681C267BDD00C390B8 /* main.m in Sources */,
+				185CA9981C2AD6F70047AF39 /* ContactsModel.m in Sources */,
+				1824C6331C27AE300026891D /* DiscoverCell.m in Sources */,
+				183C44871C267DCD00C390B8 /* ContacksViewContriller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		183C44781C267BDD00C390B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		183C44791C267BDD00C390B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		183C447B1C267BDD00C390B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WeChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackyshan.WeChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		183C447C1C267BDD00C390B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WeChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackyshan.WeChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		183C445E1C267BDD00C390B8 /* Build configuration list for PBXProject "WeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183C44781C267BDD00C390B8 /* Debug */,
+				183C44791C267BDD00C390B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183C447A1C267BDD00C390B8 /* Build configuration list for PBXNativeTarget "WeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183C447B1C267BDD00C390B8 /* Debug */,
+				183C447C1C267BDD00C390B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 183C445B1C267BDD00C390B8 /* Project object */;
+}
