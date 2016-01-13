@@ -70,7 +70,7 @@
     NSArray *titles = @[@"item1", @"选项2", @"选项3"];
     PopoverView *pop = [[PopoverView alloc] initWithPoint:point titles:titles images:nil];
     pop.selectRowAtIndex = ^(NSInteger index){
-        NSLog(@"select index:%d", index);
+        NSLog(@"select index:%lu", index);
     };
     [pop show];
 }
@@ -79,12 +79,12 @@
 {
   
     
-    _dataArr = @[@{@"img":@"Expression_19",@"name":@"测试sdd的名字",@"message":@"测试vdnf的信息"},
-                 @{@"img":@"Expression_20",@"name":@"测试的名字2222222",@"message":@"测试hd的信息2222222"},
-                 @{@"img":@"Expression_21",@"name":@"测试的名字33333",@"message":@"测试的信fgfd息cvxh33333"},
-                 @{@"img":@"Expression_22",@"name":@"测试gfj的名字4444444",@"message":@"测试dcxsd的信息44444"},
-                 @{@"img":@"Plugins_QQMail",@"name":@"测试gfjadsg的火箭队防护名字4444444",@"message":@"测试5747364686dsdcxsd的信息44444"},
-                 @{@"img":@"Expression_23",@"name":@"测试dshtv的名字55555555",@"message":@"测试的vncdh信息555555"}];
+    _dataArr = @[@{@"img":@"images (0)",@"name":@"测试的名字00",@"message":@"测试的信息00"},
+                 @{@"img":@"images (1)",@"name":@"测试的名字01",@"message":@"测试的信息01"},
+                 @{@"img":@"images (2)",@"name":@"测试的名字02",@"message":@"测试的信息02"},
+                 @{@"img":@"images (3)",@"name":@"测试的名字03",@"message":@"测试的信息03"},
+                 @{@"img":@"Plugins_QQMail",@"name":@"测试的名字04",@"message":@"测试的信息04"},
+                 @{@"img":@"images (4)",@"name":@"测试的名字05",@"message":@"测试的信息05"}];
     
     [_tableView reloadData];
 }
